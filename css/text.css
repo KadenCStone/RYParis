@@ -4,7 +4,7 @@
   }
 
 
-/* NAV */
+/* NAV       use for footNav */
 
 
   #navcontainer {
@@ -81,6 +81,8 @@ body {
 
 
 .everydayCategories {
+    border-top: 3px black solid;
+    padding-top: 25px;
     background-color: white;
     margin: 0 auto;
     position: relative;
@@ -89,7 +91,7 @@ body {
 }
 .posthero {
     margin-bottom: 25px;
-    margin-left: 25%;
+    margin-left: 365px;
 }
 
 .posthero h3 {
@@ -102,7 +104,7 @@ body {
     font-size: 18px;
 }
 
-        /* box */
+        /* box              use for boxesoftheweek and boxe3 / bo2 and bo3*/
 
 
 #boxescontainer {
