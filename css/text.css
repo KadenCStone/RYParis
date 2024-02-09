@@ -16,21 +16,12 @@
     margin-bottom: 3px;
     
 }
-#navcontainer h1 {
-    font-size: 50px;
-    color: black;
-    padding-left: 35px;
-    width: 300px;
-    float: left;
-}
-#navcontainer h2 {
-    text-align: left;
-    font-size: 18px;
-    padding-left: 35px;
-    width: 300px;
+#navcontainer img {
+    padding-left: 30px;
 }
 .nav {
     float: right;
+    margin-top: 30px;
     font-size: 22px;
     color: black;
     width: 500px;
