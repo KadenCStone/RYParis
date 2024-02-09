@@ -17,9 +17,8 @@
     
 }
 #navcontainer h1 {
-    text-align: left;
     font-size: 50px;
-    color: san;
+    color: black;
     padding-left: 35px;
     width: 300px;
     float: left;
@@ -72,7 +71,6 @@ body {
     left: 35%;
     background-color: white;
     padding: 10px;
-    text-align: center;
     z-index: 1;
 }
 
@@ -139,10 +137,141 @@ body {
 /* HEALTHY RECIPES OTW */
 
 
-         /* where */
+.healthyRecipes {
+    padding-top: 25px;
+    background-color: lightgray;
+    margin: 0 auto;
+}
+.healthyText {
+    margin-bottom: 25px;
+    z-index: 1;
+    margin-left: 365px;
+}
+.healthyText h3 {
+    font-size: 24px;
+}
+.healthyText p {
+    font-size: 18px;
+}
 
-                /* wherebox */
+        /* healthy boxes */
 
+.boxesOfTheWeek {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.boxe2 {
+    height: 300px;
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.bo2 {
+    display: inline-block;
+    margin: 0 10px;
+}
+.bo2 p {
+    text-align: center;}
+.bo2 img {
+    max-height: 100%;
+    max-width:100%;;
+}
+
+
+/* where */
+
+
+.whereToEat {
+    padding-top: 25px;
+    background-color: white;
+    margin: 0 auto;
+}
+.whereToText {
+    margin-bottom: 25px;
+    z-index: 1;
+    margin-left: 365px;
+}
+.whereToText h3 {
+    font-size: 24px;
+    padding-bottom: 5px;
+    font-weight: bolder;
+}
+.whereToText p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    font-weight: lighter;
+}
+
+
+        /* wherebox */
+
+
+.whereFood {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.boxe3 {
+    height: 300px;
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.bo3 {
+    display: inline-block;
+    margin: 0 10px;
+}
+.bo3 p {
+text-align: center;}
+.bo3 img {
+    max-height: 100%;
+    max-width:100%;;
+}
+
+
+/* footer */
+
+
+#footer {
+    position: relative;
+    top: 0;
+    height: 120px;
+    width: 100%;
+    background-color: darkgoldenrod;
+    margin-bottom: 3px;
+    
+}
+
+#footer h5 {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+    color: black;
+    padding-left: 35px;
+    width: 300px;
+    float: left;
+}
+.footNav {
+    float: right;
+    font-size: 16px;
+    color: black;
+    width: 500px;
+    margin-top: 30px;
+}
+.footNav a {
+    text-decoration: none;
+    color: black;
+    padding-right: 10px;
+}
 
 
 
