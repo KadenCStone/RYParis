@@ -235,6 +235,7 @@ text-align: center;}
 .bo3 img {
     max-height: 100%;
     max-width:100%;;
+    border: 3px gray solid;
 }
 
 
