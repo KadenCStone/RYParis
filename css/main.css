@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    margin-bottom: 50px;
+    padding: 0;
+  }
+
+/* NAV */
+
+  #navcontainer {
+    position: relative;
+    top: 0;
+    height: 120px;
+    width: 100%;
+    background-color: rgb(233, 197, 108);
+    margin-bottom: 3px;
+}
+#navcontainer h1 {
+    text-align: left;
+    font-size: 50px;
+    margin: auto;
+    padding: 5px;
+    color: white;
+    padding-left: 10px;
+}
+#navcontainer h2 {
+    text-align: left;
+    font-size: 18px;
+    padding-left: 10px;
+}
+.nav {
+    text-align: right;
+    float: right;
+    font-size: 22px;
+    color: black;
+    width: 500px;
+}
+.nav a {
+    text-decoration: none;
+    color: white;
+    padding-right: 10px;
+}
+
+/* BODY */
+
+body {
+    background-color: rgba(217, 255, 0, 0.041);
+}
+p {
+    font-size: 16px
+}
+h1 {
+    font-size: 30px;
+    width: 400px;
+    float: left;
+}
+h2 {
+    font-size: 16px;
+    width: 200px;
+}
+h3 {
+    text-align: center;
+}
+
+/* HERO */
+
+.hero img {
+    width: 100%;
+    position: absolute;
+    z-index: -3;
+}
+.hero h3 {
+    position: relative;
+    height: 50px;
+    width: 400px;
+    background-color:white;
+}
+
+/* EVERYDAY CATEGORIES */
+
+.everydayCategories {
+    background-color: white;
+    margin-top: 350px;
+}
+
+        /* box */
+
+#boxescontainer {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.box {
+    display: inline-block;
+    height: 100px;
+    width: 150px;
+    border: 3px solid gold;
+    border-radius: 5px;
+    background-color: white;
+    padding: 20px; 
+    margin: 10px 10px;
+}
+.boxes img {
+    height: 200px;
+    width: 196px;
+    display: inline-flex;
+    position: relative;
+    justify-content: space space-between;
+    float: right;
+    top: -22px;
+    right: -22px;
+}
+.boxes {
+    width: 600px;
+    height: 200px;
+    height:100%;
+    width: 100%;
+}
+
+/* HEALTHY RECIPES OTW */
+
+
+         /* where */
+
+                /* wherebox */
+
+
+
+
+/* link the second page to Popular Recipes + Meal Ideas
+    link Whats New + Categories to lower first page
+*/
