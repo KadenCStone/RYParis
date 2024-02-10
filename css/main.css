@@ -132,6 +132,10 @@ body {
 .Directions li {
     padding: 10px;
 }
+a {
+    color: black;
+    padding: 30px;
+}
 
 
 /* footer */
