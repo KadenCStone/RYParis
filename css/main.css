@@ -13,25 +13,14 @@
     height: 120px;
     width: 100%;
     background-color: darkgoldenrod;
-    margin-bottom: 3px;
     
 }
-#navcontainer h1 {
-    text-align: left;
-    font-size: 50px;
-    color: san;
-    padding-left: 35px;
-    width: 300px;
-    float: left;
-}
-#navcontainer h2 {
-    text-align: left;
-    font-size: 18px;
-    padding-left: 35px;
-    width: 300px;
+#navcontainer img {
+    padding-left: 30px;
 }
 .nav {
     float: right;
+    margin-top: 30px;
     font-size: 22px;
     color: black;
     width: 500px;
@@ -47,103 +36,136 @@
 
 
 body {
-    background-color: white;
+    background-color: bisque
 }
 
 
 /* HERO */
 
 
-.hero {
+.bamhurger {
     position: relative;
+    padding-left: 200px;
 }
 
-.hero img {
-    width: 100%;
+.bamhurger img {
+    width: 75%;
     height: auto;
     position: absolute;
     z-index: -1;
 }
 
-.hero h3 {
+.bamhurger h3 {
     position: absolute;
     font-size: 30px;
-    top: 500px;
+    top: 400px;
     left: 35%;
     background-color: white;
     padding: 10px;
-    text-align: center;
     z-index: 1;
+}
+.bamTime {
+    background-color: lightgray;
+    padding-left: 10px;
+    margin-top: 500px;
+    height: 100px;
+}
+.list {
+    background-color: lightgray;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+.list div {
+    flex: 0 0 30%;
 }
 
 
-/* EVERYDAY CATEGORIES */
+/* Post Hero */
 
 
-.everydayCategories {
+.posthero {
+    text-align: center;
+    border-top: 3px black solid;
+    padding-top: 15px;
     background-color: white;
-    margin: 0 auto;
     position: relative;
     z-index: 1;
-    margin-top: 650px;
 }
-.posthero {
-    margin-bottom: 25px;
-    margin-left: 25%;
+.review p {
+    padding-bottom: 5px;
+}
+#butn {
+    border-radius: 20px;
+    background-color: red;
+    padding: 3px;
+}
+#butn:hover {
+    background-color: darkred;
+}
+.quote {
+    background-color: lightgray;
+    color:darkslategray;
+    width: 75%;
+    margin-left: 200px;
+    margin-top: 30px;
+    font-style: oblique;
 }
 
-.posthero h3 {
-    font-size: 24px;
-    font-weight: bolder;
-    margin-bottom: 10px;
-}
 
-.posthero p {
-    font-size: 18px;
-}
-
-        /* box */
+/* HowTo */
 
 
-#boxescontainer {
+.howTo {
     display: flex;
-    height: 100%;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 20px;
-}
-.boxes {
-    height: 300px;
-    width: 800px;
-    display: flex;
-    flex-direction: row;
     justify-content: space-around;
+    width: 100%;
+    margin-top: 20px;
 }
-.box {
-    display: inline-block;
-    margin: 0 10px;
+.ingredients p {
+    padding: 10px;
 }
-.box img {
-    max-height: 100%;
-    max-width:100%;;
+.ingredients h3 {
+    padding: 20px;
 }
-.box h4 {
+.Directions li {
+    padding: 10px;
+}
+
+
+/* footer */
+
+
+#footer {
+    position: relative;
+    top: 0;
+    height: 120px;
+    width: 100%;
+    background-color: darkgoldenrod;
+    margin-bottom: 3px;
+    
+}
+
+#footer h5 {
     text-align: center;
-    font-weight:lighter;
+    margin-top: 30px;
+    font-size: 20px;
+    color: black;
+    padding-left: 35px;
+    width: 300px;
+    float: left;
+}
+.footNav {
+    float: right;
+    font-size: 16px;
+    color: black;
+    width: 500px;
+    margin-top: 30px;
+}
+.footNav a {
+    text-decoration: none;
+    color: black;
+    padding-right: 10px;
 }
 
-
-/* HEALTHY RECIPES OTW */
-
-
-         /* where */
-
-                /* wherebox */
-
-
-
-
-/* link the second page to Popular Recipes + Meal Ideas
-    link Whats New + Categories to lower first page
-*/

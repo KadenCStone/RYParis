@@ -4,7 +4,7 @@
   }
 
 
-/* NAV       use for footNav */
+/* NAV */
 
 
   #navcontainer {
@@ -93,7 +93,7 @@ body {
     font-size: 18px;
 }
 
-        /* box              use for boxesoftheweek and boxe3 / bo2 and bo3*/
+        /* box */
 
 
 #boxescontainer {
@@ -265,8 +265,3 @@ text-align: center;}
     padding-right: 10px;
 }
 
-
-
-/* link the second page to Popular Recipes + Meal Ideas
-    link Whats New + Categories to lower first page
-*/
